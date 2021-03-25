@@ -1,0 +1,461 @@
+/* CSS Document */
+
+* {
+	margin:0;
+	padding: 0;	
+}
+
+body,html{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+
+li {
+	list-style: none;	
+}
+
+.wrapper{
+	max-width: 840px;
+	margin-left: auto;
+	margin-right: auto; 
+		
+}
+
+button {
+	cursor: pointer;
+	padding: 10px 60px;	
+	margin: 30px 0;
+	text-align: center;
+}
+
+input {
+	width: 500px;	
+	height: 30px;
+}
+
+textarea {
+	width: 500px;	
+	height: 200px;
+}
+
+
+
+/*↑全体設定
+*/
+
+/*↓header
+*/
+.head-contents {
+	display: flex;
+	align-items:center;
+	padding: 20px 0;
+}
+
+.head-contents > li{
+	padding-right: 50px;	
+}
+
+.contents {
+	background-color: #ff5e00e3;
+	width: 100%;
+}
+
+
+
+/*↓article
+*/
+
+.bar {
+	margin-top: 10px;	
+}
+
+
+article > h1 {
+	margin-bottom: 20px;	
+}
+
+.shop-img img{
+	width: 100%;	
+	height: 100%;
+}
+
+/*↓section
+*/
+
+.appeal-point {
+	margin-top: 100px;	
+}
+
+.appeal-title {
+	font-size: 20px;	
+	position: relative;
+	margin-bottom: 60px;
+	padding-bottom: 30px;
+	font-weight: 900;
+	color: #ff3636;
+}
+
+.appeal-img {
+	width: 220px;
+	height: 160px;
+	margin-left: 32px;
+	float: right;
+}
+
+.appeal-title::before {
+	content: '';
+	position: absolute;
+	border-bottom: 2px solid gray;
+	width: 20%;
+/*    left: 0;
+*/    bottom: -10px;
+	
+}
+
+.sentence {
+	line-height: 30px;	
+	padding-right: 300px;
+	list-style: none;
+}
+
+.last-presents {
+	margin-bottom: 70px;
+}
+
+.access {
+	margin: 50px 0;	
+}
+
+.info > p {
+	padding: 20px 0;
+}
+
+/*↓aside
+*/
+
+aside > ul,.shop-infomation{
+	display: flex;
+	padding: 30px 0;
+	border-bottom: 1px solid gray;
+}
+
+.subject {
+	width: 170px;
+}
+
+
+
+
+/*↓footer*/
+
+footer {
+	text-align: center;
+	background-color: black;
+	color: white;
+	opacity: 0.5;
+	margin-top: 50px;
+    width: 100%;
+    height: 30px;
+}
+
+/*↓contact.html*/
+
+form > p {
+	padding-top: 20px;	
+}
+
+/*↓menu.html*/
+
+.cuisine {
+	width: 640px;	
+	margin-left: auto;
+	margin-right: auto; 
+	padding-top: 20px;
+}
+
+.recommended {
+	padding: 30px 0;
+}
+
+.cuisine-name > p {
+	padding-top: 20px;	
+}
+
+/*↓banquet.html*/
+
+.digging {
+	width: 100%;
+	position:relative
+}
+
+/* .digging-top > img{
+	
+}
+ */
+
+.digging-word {
+	position: absolute;
+	color: white;
+	text-align:center;
+	top: 60%;
+	left: 0;	
+	font-size: 3rem;
+    width: 100%;
+}
+
+/*section(1)
+*/
+.catch-copy {
+	width: 640px;
+    margin: 0 auto;
+    font-size: 2rem;
+}
+
+.under-catch-copy {
+	padding: 30px 0;
+	text-align: center;
+}
+
+.Introduction-first > img{
+	width: 40%;
+	float: left;
+}
+
+.Introduction-first > p{
+	width: 50%;
+	float: right;
+}
+
+.Introduction-first > span{
+	content: "";
+	height: 0;
+	clear: both;
+	display: block;
+}
+
+.introduction-word {
+	font-size: 2rem;
+	color: red;
+	padding-bottom: 30px;
+}
+
+.introduction-second {
+	margin-top: 50px;	
+}
+
+.introduction-second-box > p {
+	padding: 20px;	
+}
+
+
+.introduction-second-box > img {
+	float: right;
+}
+
+
+/*section(2)
+*/
+
+.course {
+	position: relative;
+	width: auto;
+	height: 720px;
+	background-image:url(../img/shop.jpg);	
+	background-repeat: no-repeat;
+	margin-top: 200px;
+	margin-bottom: 150px;
+}
+
+
+.course-back {
+	position: absolute;
+	width: 100%;
+	height: 720px;
+background-color: rgba(255, 255, 255, 0.5);
+	
+}
+
+.course-words {
+	text-align: center;
+}
+
+.course-title {
+	font-size: 2.5rem;
+    font-weight: bold;
+    padding: 50px 0 40px 0;
+	}
+
+.course-title-text {
+	width: 370px;
+    margin: 0 auto;
+}
+
+.pain {
+	background-color: white;
+	width: 60%;
+	height: 200px;
+	margin: 30px auto 0 auto;
+}
+
+.bamboo-plum {
+	display: flex;
+	justify-content: space-around;
+    margin-top: 40px;
+}
+
+.bamboo {
+	background-color: white;
+	width: 45%;
+	height: 200px;
+
+}
+
+.plum {
+	background-color: white;
+	width: 45%;
+	height: 200px;
+}
+
+.corse-select {
+	text-align: center;
+	background-color: red;
+}
+
+.corse-img {
+	width: 40%;
+    float: left;	
+	margin: 10px 0px 0px 13px;
+}
+
+.corse-img > img {
+	width: 100%;
+}
+
+.corse-set {
+	text-align: center;	
+	height: 115px;
+}
+
+.corse-set > div {
+	margin-top: 4%;	
+}
+
+.money {
+	text-align: center;	
+}
+
+.head-contents {
+  overflow: hidden;
+}
+.head-contents > li {
+  opacity: 0.7;
+  transition: all 0.5s;
+}
+.head-contents > li:hover {
+  opacity: 1.0;
+  transform: scale(1.2, 1.2);
+}
+
+/*responsive
+*/
+
+@media screen and (max-width: 480px) {
+body {
+	text-align: center;	
+}
+
+
+img {
+	float: none!important;	
+}
+
+
+.head-contents > li {
+    padding-right: 20px;
+}
+
+.head-contents {
+	font-size: 10px;
+
+}
+
+.appeal-title::before {
+	width: 50%;
+}
+
+.sentence { 
+	padding: 100px;	
+}
+
+.cuisine {
+	width: 100%;
+}
+
+input {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+}
+
+.digging-word {
+	width: initial;	
+	text-align: center;
+    top: 40%;
+    left: 10%;
+
+}
+
+.catch-copy {
+    width: 100%;
+    font-size: 1.5rem;
+}
+.under-catch-copy {
+    padding: 30px 23px;
+}
+
+.Introduction-first > p {
+	width: initial;
+	float:none;
+	padding: 20px;
+}
+
+.introduction-second-box {
+    width: initial;
+    float: none;
+}
+
+.course-title {
+	padding: 10px 0	
+}
+
+.corse-img {
+	margin: 10px auto;
+	float: none;	
+}
+
+.pain {
+	height: 250px;
+}
+
+.bamboo {
+    height: 240px;
+}
+
+.plum {
+    height: 240px;	
+}
+
+.corse-set > div {
+     margin-top: initial; 
+}
+
+.corse-set {
+    height: 100px;
+}
+
+
+}
